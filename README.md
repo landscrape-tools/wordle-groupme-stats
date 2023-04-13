@@ -8,7 +8,7 @@ Provide group and individual statistics on Wordle games posted to a GroupMe grou
 4. copy and paste selection into file 'wordle-groupme-history.txt'
 5. edit the list of GroupMe usernames in wordle-groupme-stats.py:
 `playerNames = ['GroupMeUser1','GroupMeUser2','GroupMeUser3','GroupMeUser4','GroupMeUser5','GroupMeUser5_alt','GroupMeUser6']`
-# 6. if any players have multiple GroupMe accounts whose stats should be merged, edit this list in wordle-groupme-stats.py:
+6. if any players have multiple GroupMe accounts whose stats should be merged, edit this list in wordle-groupme-stats.py:
 `mergePlayers = [('GroupMeUser5_alt','GroupMeUser5')] # merge first player stats into second player`
 7. python wordle-groupme-stats.py
 8. copy and paste stats back into GroupMe
